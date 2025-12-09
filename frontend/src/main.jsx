@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'        // React 18 root API for re
 import './index.css'                                 // Global CSS
 import App from './App.jsx'                           // Main App component
 import { BrowserRouter } from "react-router-dom"     // Router for handling URL navigation
-import UserContext from './context/userContext.jsx'  // Context provider for user authentication and data
+import UserContext from './context/UserContext.jsx'  // Context provider for user authentication and data
 
 // Create root and render the app
 createRoot(document.getElementById('root')).render(
