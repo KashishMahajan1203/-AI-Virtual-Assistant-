@@ -5,7 +5,7 @@ import SignIn from './pages/SignIn'                         // Sign-in page
 import Home from './pages/Home'                             // Home page (main assistant interface)
 import Customize from './pages/Customize'                   // Assistant image customization page
 import Customize2 from './pages/Customize2'                 // Assistant name customization page
-import { userDataContext } from './context/userContext'    // Context for user authentication & data
+import { userDataContext } from './context/UserContext'    // Context for user authentication & data
 
 function App() {
   const { userData } = useContext(userDataContext)         // Access current user data from context
