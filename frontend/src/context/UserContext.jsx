@@ -5,7 +5,7 @@ import React, { useEffect, useState, createContext } from 'react'
 export const userDataContext = createContext()
 
 function UserContext({ children }) {
-    const serverUrl = "http://localhost:8000"   // Backend API base URL
+    const serverUrl = "https://ai-virtual-assistant-backend-hggt.onrender.com"   // Backend API base URL
 
     // State variables to manage user data and image selections
     const [userData, setUserData] = useState(null)        // Stores current logged-in user info
