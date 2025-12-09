@@ -15,7 +15,7 @@ The assistant interprets natural language, answers user questions, and performs 
 ### 🤖 Select Assistant Image 
 ![image](https://res.cloudinary.com/dfacldueh/image/upload/v1765278384/Screenshot_2025-12-09_163445_inknso.png)
 
-### 👤 Select Assitant Name
+### 👤 Select Assistant Name
 ![name](https://res.cloudinary.com/dfacldueh/image/upload/v1765278377/Screenshot_2025-12-09_163506_sdvc4o.png)
 
 ### ⭐ Talk to your Assistant
@@ -151,3 +151,4 @@ LinkedIn: https://www.linkedin.com/in/kashish-mahajan-0591ba2b4/
 GitHub: https://github.com/KashishMahajan1203
 
 Developed with 💡 and passion by Kashish Mahajan
+
