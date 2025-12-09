@@ -48,3 +48,47 @@ Processes user prompts using NLP and produces contextual, intelligent responses.
 
 A clean, modular backend and frontend architecture designed for growth and efficient feature expansion.
 
+# ⚙️ Backend Setup (Node.js + Express)
+```bash
+npm init -y
+npm i express mongoose dotenv nodemon jsonwebtoken bcryptjs cookie-parser cloudinary multer
+npm i cors
+npm i axios
+npm i moment
+
+# Start backend
+npm run dev
+
+```
+---
+# 🎨 Frontend Setup (React + Vite)
+```bash
+npm create vite@latest frontend
+
+# Tailwind setup
+npm install -D tailwindcss @tailwindcss/vite
+# Add: @import "tailwindcss"; in your main CSS file
+
+npm i react-router-dom react-icons axios
+
+# Start frontend
+npm run dev
+
+```
+---
+# 🛠️ Tech Stack
+**Backend:**
+* Node.js
+* Express
+* MongoDB / Mongoose
+* JWT Authentication
+* Cloudinary & Multer
+* Moment.js (for date/time operations)
+* Axios
+
+**Frontend:**
+* React + Vite
+* TailwindCSS
+* React Router DOM
+* React Icons
+* Axios
