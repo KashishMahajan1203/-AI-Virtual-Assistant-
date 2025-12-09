@@ -33,8 +33,8 @@ export const signUp = async (req, res) => {
         res.cookie("token", token, {
             httpOnly: true,
             maxAge: 7 * 24 * 60 * 60 * 1000,        // Cookie validity (7 days)
-            sameSite: "strict",                     // Restrict cross-site cookie usage
-            secure: false                           // Should be true in production with HTTPS
+            sameSite: "None",                     // Restrict cross-site cookie usage
+            secure: true                           // Should be true in production with HTTPS
         })
 
         // Confirm successful registration
@@ -69,8 +69,8 @@ export const login = async (req, res) => {
         res.cookie("token", token, {
             httpOnly: true,
             maxAge: 7 * 24 * 60 * 60 * 1000,
-            sameSite: "strict",
-            secure: false
+            sameSite: "None",                   
+            secure: true   
         })
 
         // Deliver the authenticated user profile
