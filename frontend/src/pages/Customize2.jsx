@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { userDataContext } from '../context/userContext'   // Context for user and assistant state
+import { userDataContext } from '../context/UserContext'   // Context for user and assistant state
 import { MdKeyboardBackspace } from "react-icons/md";      // Back navigation icon
 import axios from 'axios'                                   // HTTP requests
 import { useNavigate } from 'react-router-dom';            // Navigation between routes
