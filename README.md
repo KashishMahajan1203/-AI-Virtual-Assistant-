@@ -5,6 +5,24 @@ The assistant interprets natural language, answers user questions, and performs 
 
 ---
 
+## 📸 Screenshots
+### 📝 SignUp Page
+![Signup Page](https://res.cloudinary.com/dfacldueh/image/upload/v1765278384/Screenshot_2025-12-09_144802_xzgolb.png)
+
+### 🔐 SignIn Items
+![Signin Page ](https://res.cloudinary.com/dfacldueh/image/upload/v1765278378/Screenshot_2025-12-09_163538_w8f5ks.png)
+
+### 🤖 Select Assistant Image 
+![image](https://res.cloudinary.com/dfacldueh/image/upload/v1765278384/Screenshot_2025-12-09_163445_inknso.png)
+
+### 👤 Select Assitant Name
+![name](https://res.cloudinary.com/dfacldueh/image/upload/v1765278377/Screenshot_2025-12-09_163506_sdvc4o.png)
+
+### ⭐ Talk to your Assistant
+![talk](https://res.cloudinary.com/dfacldueh/image/upload/v1765278377/Screenshot_2025-12-09_163521_ybr0sw.png)
+
+--- 
+
 # 🚀 Capabilities
 ✨ Conversational Intelligence
 
@@ -13,16 +31,11 @@ Understands and responds to user queries naturally, providing clear answers and 
 # 🌐 Smart Navigation
 
 Responds instantly to commands such as:
-
-Open Instagram
-
-Open Facebook
-
-Open YouTube
-
-Open Google
-
-Open any URL requested
+* Open Instagram
+* Open Facebook
+* Open YouTube
+* Open Google
+* Open any URL requested
 
 # ⛅ Weather Reporting
 
@@ -31,14 +44,10 @@ Provides real-time weather details upon request.
 # 🕒 Date & Time Information
 
 Supplies accurate and current:
-
-Time
-
-Date
-
-Month
-
-Year
+* Time
+* Date
+* Month
+* Year
 
 # 🧠 AI Response Engine
 
@@ -93,3 +102,52 @@ npm run dev
 * React Icons
 * Axios
 
+# 📂 Project Structure
+```bash
+📦 MERN-AI-Virtual-Assistant
+ ┣ 📂 backend
+ ┃ ┣ controllers
+ ┃ ┣ models
+ ┃ ┣ routes
+ ┃ ┣ middleware
+ ┃ ┣ utils
+ ┃ ┗ server.js
+ ┣ 📂 frontend
+ ┃ ┣ 📂 src
+ ┃ ┃ ┣ components
+ ┃ ┃ ┣ pages
+ ┃ ┃ ┣ api
+ ┃ ┃ ┗ main.jsx
+ ┗ README.md
+
+```
+---
+ # ▶️ Launching the Application
+ ```bash
+# Clone the repository
+git clone https://github.com/KashishMahajan1203/-AI-Virtual-Assistant-.git
+
+# Backend
+cd backend
+npm install
+npm run dev
+
+# Frontend
+cd ../frontend
+npm install
+npm run dev
+
+```
+---
+
+📞 Contact
+
+For collaboration or inquiries:
+
+Email: kashishmahajan878@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/kashish-mahajan-0591ba2b4/
+
+GitHub: https://github.com/KashishMahajan1203
+
+Developed with 💡 and passion by Kashish Mahajan
