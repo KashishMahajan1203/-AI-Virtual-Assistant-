@@ -3,6 +3,8 @@
 A dynamic AI-powered Virtual Assistant built on the MERN stack, engineered to deliver seamless conversational interactions and execute real-time user commands.
 The assistant interprets natural language, answers user questions, and performs tasks such as opening social platforms, retrieving weather insights, launching websites, and displaying accurate date and time details.
 
+[⚡🧠 Access the Intelligent Response Engine!!](https://ai-virtual-assistant-02m7.onrender.com/)
+
 ---
 
 ## 📸 Screenshots
@@ -151,4 +153,5 @@ LinkedIn: https://www.linkedin.com/in/kashish-mahajan-0591ba2b4/
 GitHub: https://github.com/KashishMahajan1203
 
 Developed with 💡 and passion by Kashish Mahajan
+
 
