@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import { userDataContext } from '../context/userContext'  // Access user data and AI functions
+import { userDataContext } from '../context/UserContext'  // Access user data and AI functions
 import { useNavigate } from 'react-router-dom'            // Navigation hook
 import axios from 'axios'                                 // HTTP requests
 import aiImg from "../assets/ai.gif"                      // AI speaking animation
