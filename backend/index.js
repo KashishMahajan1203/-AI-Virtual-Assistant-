@@ -13,7 +13,7 @@ const app = express()                          // Initialize the Express applica
 
 // Configure CORS to allow frontend access and credentials (cookies)
 app.use(cors({
-    origin: "http://localhost:5173",           // Allow requests from this origin
+    origin: "https://ai-virtual-assistant-02m7.onrender.com",           // Allow requests from this origin
     credentials: true                          // Enable cookies and auth headers
 }))
 
