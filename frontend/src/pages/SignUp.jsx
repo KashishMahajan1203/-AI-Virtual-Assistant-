@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import bg from "../assets/authBg.png"                      // Background image
 import { IoEye, IoEyeOff } from "react-icons/io5";       // Icons for password visibility toggle
 import { useNavigate } from 'react-router-dom';          // Navigation hook
-import { userDataContext } from '../context/userContext'; // Context for server URL and user data
+import { userDataContext } from '../context/UserContext'; // Context for server URL and user data
 import axios from "axios"                                 // HTTP requests
 
 function SignUp() {
